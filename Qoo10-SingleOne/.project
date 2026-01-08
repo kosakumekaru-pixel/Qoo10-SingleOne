@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Sales</name>
+	<name>Qoo10-SingleOne</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -10,4 +10,5 @@
 		<nature>org.jkiss.dbeaver.DBeaverNature</nature>
 	</natures>
 </projectDescription>
+
 
