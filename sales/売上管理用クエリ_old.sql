@@ -54,7 +54,7 @@ SELECT
     fc.report_click,
     fc.report_cv,
     fc.report_purchased,
-    fc.report_cart_cv
+    /*fc.report_cart_cv*/
 FROM 
     account_table at
     LEFT JOIN filtered_costs fc ON at.`OLD`  = fc.account_id 
