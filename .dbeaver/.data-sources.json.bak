@@ -1,0 +1,40 @@
+{
+	"folders": {},
+	"connections": {
+		"postgres-jdbc-19ba08b0ea2-d5f79e6bf3ecf0b": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "mynavi_so",
+			"save-password": true,
+			"configuration": {
+				"host": "110.234.162.216",
+				"port": "5432",
+				"database": "mynavi_so",
+				"url": "jdbc:postgresql://110.234.162.216:5432/mynavi_so",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false"
+				},
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "通常の開発データベース",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}

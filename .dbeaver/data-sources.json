@@ -1,0 +1,40 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-19ba0912055-9384d6107f013f0": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "qsm_mpa",
+			"save-password": true,
+			"configuration": {
+				"host": "db-k8ole.vpc-pub-cdb-jpn.ntruss.com",
+				"port": "3306",
+				"database": "qsm_mpa",
+				"url": "jdbc:mysql://db-k8ole.vpc-pub-cdb-jpn.ntruss.com:3306/qsm_mpa",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-show-all-dbs@": "true"
+				},
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "通常の開発データベース",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
